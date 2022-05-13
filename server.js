@@ -1,7 +1,11 @@
 const express = require("express");
+const connectDB = require("./config/db");
 
 const app = express();
 
+
+//Connect db
+connectDB();
 
 // Defining endpoints
 app.use('/api/users', require('./routes/users'));
