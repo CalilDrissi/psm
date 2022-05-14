@@ -1,3 +1,3 @@
 {
-    "mongoURI": "mongodb+srv://user:34iOOG6HzkguRUf0@cluster.f2ucr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://user:34iOOG6HzkguRUf0@cluster.f2ucr.mongodb.net/PersonalSocialManager?retryWrites=true&w=majority"
 }
