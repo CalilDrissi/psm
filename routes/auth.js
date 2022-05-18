@@ -12,7 +12,7 @@ const router = express.Router();
 
 
 // * @route   GET  api/auth
-// * @desc     Get logged in user
+// * @desc     Get logged in user information
 // * @access  Private
 router.get("/",  auth, async (req, res) => {
     try {
