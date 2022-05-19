@@ -28,7 +28,7 @@ router.get("/",  auth, async (req, res) => {
 
 
 // * @route   Post  api/auth
-// * @desc     Get logged in user & token
+// * @desc      Log in user &  issue token
 // * @access  Public
 router.post('/', [
     check("email", "email email is required").isEmail(),
